@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+#bg {
+    background-image: url("images/bg.png");
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: auto auto;
+}
+
+.hero {
+    background-image: url('images/hero.png');
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 35px;
+    height: 54px;
+}
+
+.enemy {
+    background-image: url('images/enemy.png');
+    position: absolute;
+    top: 0;
+    width: 45px;
+    height: 53px;
+}
